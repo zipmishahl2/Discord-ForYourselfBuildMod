@@ -1,16 +1,16 @@
 import time
 from pypresence import Presence
 
-client_id = "YOUR_CLIENT_ID" 
+client_id = "1138490802964791357" 
 
 RPC = Presence(client_id)
 RPC.connect()
 
-RPC.update(state="Playing Solo", details="In a Match", large_image="large_image", start=int(time.time()))
+RPC.update(state="ForYourselfBuildMod", details="Version 3.4", large_image="logomisha", start=int(time.time()))
 
 while True:
     try:
-        RPC.update(state="Playing Solo", details="In a Match", large_image="large_image", start=int(time.time()))
+        RPC.update(state="ForYourselfBuildMod", details="Version 3.4", large_image="logomisha", start=int(time.time()))
     except Exception as e:
         print(e)
         RPC.connect()
