@@ -6,7 +6,7 @@ client_id = "1138490802964791357"
 RPC = Presence(client_id)
 RPC.connect()
 
-RPC.update(state="ForYourselfBuildMod", details="Version 3.49", large_image="logomisha", start=int(time.time()))
+RPC.update(state="ForYourselfBuildMod", details="Version 3.9", large_image="logomisha", start=int(time.time()))
 
 while True:
     try:
